@@ -84,7 +84,7 @@ const Routes: React.FC = () => (
       />
       <Screen
         name="Esports"
-        component={View}
+        component={ComingSoon}
         options={{
           tabBarIcon: ({ size, focused }) => {
             return (
