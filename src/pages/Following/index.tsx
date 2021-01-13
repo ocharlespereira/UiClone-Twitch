@@ -5,6 +5,7 @@ import Header from "../../components/Header";
 import Heading from "../../components/Heading";
 import Title from "../../components/Title";
 import CategoryList from "../../components/CategoryList";
+import StreamList from "../../components/StreamList";
 
 import { Wrapper, Container, Main } from "./styles";
 
@@ -37,7 +38,7 @@ const Following: React.FC = () => {
       },
       {
         key: "C2",
-        render: () => <View />,
+        render: () => <StreamList />,
       },
       {
         key: "CONTINUE_WATCHING",
@@ -46,7 +47,7 @@ const Following: React.FC = () => {
       },
       {
         key: "C3",
-        render: () => <View />,
+        render: () => <StreamList />,
       },
       {
         key: "OFFLINE_CHANNELS",
