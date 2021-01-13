@@ -7,7 +7,7 @@ import colors from "../../styles/colors";
 const statusBarHeight =
   Platform.OS === "android" ? Constants.statusBarHeight : 0;
 
-export const Whrapper = styled.SafeAreaView`
+export const Wrapper = styled.SafeAreaView`
   background: ${colors.primary};
   flex: 1;
   padding-top: ${statusBarHeight + "px"};

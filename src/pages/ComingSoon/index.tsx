@@ -1,12 +1,12 @@
 import React from "react";
 
-import { Whrapper, Heading } from "./styles";
+import { Wrapper, Heading } from "./styles";
 
 const ComingSoon: React.FC = () => {
   return (
-    <Whrapper>
+    <Wrapper>
       <Heading>Coming soon...</Heading>
-    </Whrapper>
+    </Wrapper>
   );
 };
 
