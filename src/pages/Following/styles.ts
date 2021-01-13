@@ -11,9 +11,6 @@ export const Wrapper = styled.SafeAreaView`
   background: ${colors.primary};
   flex: 1;
   padding-top: ${statusBarHeight + "px"};
-
-  justify-content: center;
-  align-items: center;
 `;
 
 export const Container = styled.View``;
